@@ -9,6 +9,7 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
@@ -18,8 +19,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-     "typeRoots": ["./node_modules/@webgpu/types", "./node_modules/@types"],
-     "types": ["vite/client"]
+    "types": ["@types/dom-webcodecs", "@webgpu/types", "vite/client"]
   },
   "include": ["src"]
 }
