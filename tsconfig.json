@@ -19,6 +19,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
      "typeRoots": ["./node_modules/@webgpu/types", "./node_modules/@types"],
+     "types": ["vite/client"]
   },
   "include": ["src"]
 }
